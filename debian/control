@@ -1,0 +1,12 @@
+Source: ros-groovy-smd-ardrone2
+Section: misc
+Priority: extra
+Maintainer: Scott K Logan <logans@cottsay.net>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-std-srvs,ros-groovy-roscpp,ros-groovy-pluginlib,ros-groovy-camera-info-manager,ros-groovy-sensor-msgs,ros-groovy-image-transport,ros-groovy-geometry-msgs,ros-groovy-tf,ros-groovy-catkin,ros-groovy-nodelet,ffmpeg,libavcodec-dev,libavformat-dev,libavutil-dev,libswscale-dev
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-smd-ardrone2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-std-srvs,ros-groovy-roscpp,ros-groovy-pluginlib,ros-groovy-camera-info-manager,ros-groovy-sensor-msgs,ros-groovy-image-transport,ros-groovy-geometry-msgs,ros-groovy-tf,ros-groovy-nodelet,ffmpeg,libavcodec-dev,libavformat-dev,libavutil-dev,libswscale-dev
+Description: Standalone AR.Drone 2 Driver
